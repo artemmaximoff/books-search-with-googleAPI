@@ -1,0 +1,7 @@
+.loader {
+    margin: 10px auto;
+}
+.loader img {
+    max-width: 50px;
+    min-width: 50px;
+}

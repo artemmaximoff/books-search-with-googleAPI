@@ -1,0 +1,53 @@
+.itemProfile {
+    display:flex;
+    min-height: 50vh;
+}
+
+.itemCover {
+    flex: 0 0 30%;
+    background-color: rgba(183, 169, 151, 0.563);
+    padding: 30px;
+    box-shadow: 10px 5px 5px gainsboro;
+}
+
+.itemCover img {
+    width: 200px;
+    height: 300px;
+}
+
+
+.itemInfo {
+    padding: 30px;
+    text-align: left;
+    
+}
+
+.category {
+    font-size: 14px;
+
+    padding: 10px 0px ;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.author {
+    font-size: 16px;
+    color: rgb(133, 137, 137);
+    padding: 10px 0px ;
+}
+.description {
+    border: 1px solid rgb(191, 190, 190);
+    padding:10px;
+    box-shadow: 10px 5px 5px gainsboro;
+    max-height: 250px;
+    overflow: auto;
+}
+
+@media (max-width: 650px) {
+    .itemProfile {
+      display: block;
+  }
+  }
