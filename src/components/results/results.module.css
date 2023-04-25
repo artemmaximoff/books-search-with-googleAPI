@@ -4,11 +4,12 @@
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
-    background-image: url("../../assets/bg_12321.jpg");
-    background-size: contain;
-    background-position: repeat;
-    height: 55vh;
+    background: url("../../assets/bg_12321.png");
+    background-size: 30% 30%;
+    background-attachment: fixed;
+    min-height: 55vh;
     max-width: 100%;
+   
 }
 
 .resultsRow {
