@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/books-search-with-googleAPI/static/css/main.ca37fab3.css",
+    "main.js": "/books-search-with-googleAPI/static/js/main.524f613f.js",
+    "static/media/bg_12321.png": "/books-search-with-googleAPI/static/media/bg_12321.aec2a511ffdcf319b250.png",
+    "static/media/1657677678_4-kartinkin-net-p-knizhnaya-polka-kartinki-4.jpg": "/books-search-with-googleAPI/static/media/1657677678_4-kartinkin-net-p-knizhnaya-polka-kartinki-4.48c368f40cb519bc6365.jpg",
+    "static/media/missingbook.jpg": "/books-search-with-googleAPI/static/media/missingbook.cbf5e1e776f281117c74.jpg",
+    "static/media/cover.jpg": "/books-search-with-googleAPI/static/media/cover.092676071ff8761b9728.jpg",
+    "index.html": "/books-search-with-googleAPI/index.html",
+    "main.ca37fab3.css.map": "/books-search-with-googleAPI/static/css/main.ca37fab3.css.map",
+    "main.524f613f.js.map": "/books-search-with-googleAPI/static/js/main.524f613f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca37fab3.css",
+    "static/js/main.524f613f.js"
+  ]
+}
