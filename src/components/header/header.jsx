@@ -16,8 +16,7 @@ export const Header = () => {
 
 
     const handleTermChange = (e) => {
-        const searchTerm = e.target.value;
-        dispatch(setSearchTerm(searchTerm));
+        dispatch(setSearchTerm(e.target.value));
     }
 
     const handleSearch = () => {
@@ -33,15 +32,16 @@ export const Header = () => {
     }
 
     const handleCategoryChange = (e) => {
-        const selectedCategory = e.target.value;
-        dispatch(setSelectedCategory(selectedCategory));
+        dispatch(setSelectedCategory(e.target.value));
         dispatch(setCurrentPage(1));
         dispatch(fetchBooks());
+        navigate("/");
     }
     const handleRelevanceChange = (e) => {
         dispatch(setRelevance(e.target.value));
         dispatch(setCurrentPage(1));
         dispatch(fetchBooks());
+        navigate("/");
     }
 
 

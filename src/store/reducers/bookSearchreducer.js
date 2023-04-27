@@ -161,9 +161,9 @@ export const setBookProfile = (bookProfile) => {
 export const fetchBooks = () => async (dispatch, getState) => {
     const { searchTerm, currentPage, selectedCategory, relevance, itemsPerPage } = getState().state
     const startIndex = (currentPage - 1) * itemsPerPage;
-    dispatch(setError(''))
-    if (searchTerm) {
 
+    if (searchTerm) {
+        dispatch(setError(''))
         dispatch(setLoading(true))
         try {
             const response = await
